@@ -63,14 +63,7 @@ class Elasticsearch extends CodeceptionModule
     public $elasticsearchClient;
 
     protected $config = [
-        'hosts'               => [
-            [
-                'host' => 'localhost',
-                'port' => 9200,
-                'user' => 'elastic',
-                'pass' => ''
-            ]
-        ],
+        'hosts'               => ['localhost:9200'],
         'snapshotPath'        => null,
         'snapshotName'        => null,
         'compressedSnapshot'  => true,
