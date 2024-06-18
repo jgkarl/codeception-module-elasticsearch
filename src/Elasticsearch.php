@@ -6,8 +6,8 @@ use Codeception\Configuration;
 use Codeception\Module as CodeceptionModule;
 use Codeception\TestInterface;
 
-use Elasticsearch\Client;
-use Elasticsearch\ClientBuilder;
+use Elastic\Elasticsearch\Client;
+use Elastic\Elasticsearch\ClientBuilder;
 
 /**
  * Connects to [Elasticsearch](https://www.elastic.co/) using elasticsearch/elasticsearch official php client for
