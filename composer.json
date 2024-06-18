@@ -18,7 +18,7 @@
   "minimum-stability": "RC",
   "require": {
     "php": "^8.0",
-    "elasticsearch/elasticsearch": "7.1",
+    "elasticsearch/elasticsearch": "8.4.3",
     "codeception/codeception": "^4.0"
   },
   "autoload": {
