@@ -2,6 +2,7 @@
   "name": "subsan/codeception-module-elasticsearch",
   "description": "Elasticsearch module for Codeception",
   "homepage": "https://github.com/subsan/codeception-module-elasticsearch",
+  "version": "1.0.0",
   "keywords": [
     "codeception",
     "elasticsearch"
